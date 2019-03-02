@@ -14,7 +14,7 @@ public class Input {
 				int i = sc.nextInt();
 				retInt = i;
 			}catch(InputMismatchException ime) {
-				System.out.println("Wrong format for integer. input a correct integer: ");
+				System.out.print("Wrong format for integer. input a correct integer: ");
 				sc = new Scanner(System.in);
 			}
 		}
@@ -28,7 +28,7 @@ public class Input {
 				float f = sc.nextFloat();
 				retFloat = f;
 			}catch(InputMismatchException ime) {
-				System.out.println("Wrong format for float. input correct float: ");
+				System.out.print("Wrong format for float. Input correct float: ");
 				sc = new Scanner(System.in);
 			}
 		}
@@ -42,7 +42,7 @@ public class Input {
 				String s = sc.next();
 				retChar = s.charAt(0);
 			}catch(InputMismatchException ime) {
-				System.out.println("Wrong format for float. input correct float: ");
+				System.out.print("Wrong format for float. input correct float: ");
 				sc = new Scanner(System.in);
 			}
 		}
@@ -56,7 +56,7 @@ public class Input {
 				String s = sc.nextLine();
 				retStr = s;
 			}catch(InputMismatchException ime) {
-				System.out.println("Wrong format for float. input correct float: ");
+				System.out.print("Wrong format for float. input correct float: ");
 				sc = new Scanner(System.in);
 			}
 		}
@@ -90,7 +90,7 @@ public class Input {
 				double d = sc.nextDouble();
 				retDouble = d;
 			}catch(InputMismatchException ime) {
-				System.out.println("Wrong format for float. input correct double: ");
+				System.out.print("Wrong format for float. input correct double: ");
 				sc = new Scanner(System.in);
 			}
 		}

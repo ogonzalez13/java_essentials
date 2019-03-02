@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="librerias">
+    <CLASSES>
+      <root url="file://D:/Curso/Curso Selenium Sabatino/librerias" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/Curso/Curso Selenium Sabatino/librerias" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Curso/Curso Selenium Sabatino/librerias" recursive="false" />
+    <jarDirectory url="file://D:/Curso/Curso Selenium Sabatino/librerias" recursive="false" type="SOURCES" />
+  </library>
+</component>
